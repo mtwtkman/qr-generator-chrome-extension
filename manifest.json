@@ -1,0 +1,20 @@
+{
+  "name": "qr",
+  "version": "1.0",
+  "description": "generate QR code to open by a mobile device.",
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "index.html",
+    "default_icon" : {
+      "16": "disabled-16.png"
+    }
+  },
+  "icons": {
+    "16": "16.png"
+  },
+  "manifest_version": 2
+}
